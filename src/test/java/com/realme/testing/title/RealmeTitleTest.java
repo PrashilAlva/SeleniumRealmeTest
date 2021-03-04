@@ -23,6 +23,7 @@ public class RealmeTitleTest {
 		driver.navigate().to("https://realme.com/in/");
 		String expectedTitle="realme (India) - Dare to Leap";
 		String actualTitle=driver.getTitle();
+		//Get the title hereee
 		Assert.assertEquals(actualTitle, expectedTitle);
 		driver.quit();
 	}
